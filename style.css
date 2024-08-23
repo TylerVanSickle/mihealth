@@ -95,15 +95,15 @@ nav{
 .card3{
     background-size: cover;
     background-image: url(/images/pasta.jpg);
-    background-position: center;
+    background-position: top;
 }
 .card4{
     background-size: cover;
     background-image: url(/images/Shrimp.jpg);
-    background-position: center;
+    background-position: top;
 }
 .littleCard1{
-    padding: 10px;
+    padding: 15px;
     background-color: white;
     width: 120px;
     text-align: right;
@@ -112,10 +112,12 @@ nav{
     bottom: 39px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-
+}
+.last{
+    padding-right: 117px;
 }
 .littleCard2{
-    padding: 10px;
+    padding: 10px 15px;
     width: 160px;
     position: absolute;
     bottom: 0;
