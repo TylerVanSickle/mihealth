@@ -13,7 +13,7 @@ header{
     background-color: white;
 }
 nav{
-    width: 95%;
+    width: 90%;
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -40,7 +40,7 @@ nav{
 }
 .linksLi{
     display: inline;
-    padding-left: 25px;
+    padding-left: 150px;
     font-size: 1.25rem;
     align-self: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -70,6 +70,8 @@ nav{
     background-color: transparent;
     padding-right: 20px;
     width: 25%;
+    position: relative;
+    cursor: pointer;
 }
 
 .cardH1{
@@ -97,4 +99,28 @@ nav{
     background-size: cover;
     background-image: url(/images/Shrimp.jpg);
     background-position: center;
+}
+.littleCard1{
+    padding: 10px;
+    background-color: white;
+    width: 120px;
+    text-align: right;
+    position:absolute;
+    right: 0;
+    bottom: 39px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+.littleCard2{
+    padding: 10px;
+    width: 160px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    background-color: var(--green);
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
