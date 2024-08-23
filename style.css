@@ -27,7 +27,7 @@ nav{
 .logo a{
     text-decoration: none;
     color: var(--green);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', serif;
     letter-spacing: 1px;
     align-self: center;
 }
@@ -43,7 +43,7 @@ nav{
     padding-left: 150px;
     font-size: 1.25rem;
     align-self: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, serif;
 }
 .linksLi a{
     color: black;
@@ -77,6 +77,8 @@ nav{
 .cardH1{
     font-size: 6rem;
     line-height: 75px;
+    font-family: Arial, Helvetica, serif;
+    font-weight: bolder;
 }
 .cardP{
     font-size: 1.75rem;
